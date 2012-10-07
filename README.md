@@ -9,6 +9,8 @@ After that, the image is downloaded, a watermark is added using GD then it's upl
 
 Finally, the user is redirected to a URL on Facebook where they can confirm the change in cover image.
 
+For a better description of the interesting bits, [read this blog post](http://thingsinjars.com/post/463/covermap---nokia-maps-on-facebook/)
+
 ===
 
 Requirements
