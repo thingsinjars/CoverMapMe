@@ -112,7 +112,9 @@ if(preg_match('/^(\-?\d+(\.\d+)?),\s*(\-?\d+(\.\d+)?)$/', $coordinate) && ctype_
 	</body>
 	</html>
 	<?php 
-}
+} else {
 // Something has gone wrong and the wrong URL values have been passed in. Possibly some nefarious attempt at messing with things.
 // Redirect to the home page.
 ?><script type='text/javascript'>top.location.href = '/';</script>
+<?php
+}
